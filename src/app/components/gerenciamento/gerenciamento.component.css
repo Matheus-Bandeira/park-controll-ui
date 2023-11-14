@@ -1,0 +1,16 @@
+.vaga {
+  width: 150px;
+  height: 100px;
+  background-color: green;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #333;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.vaga.ocupada {
+  background-color: red;
+}

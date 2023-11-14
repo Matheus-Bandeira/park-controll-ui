@@ -1,0 +1,45 @@
+<div class="container text-center">
+  <h1>Controle de Estacionamento</h1>
+</div>
+
+<!-- Página de Entrada de Carro -->
+<div class="container mt-5">
+  <h2>Entrada de Carro</h2>
+  <form class="form">
+      <div class="form-group">
+          <label for="placa">Placa do Carro:</label>
+          <input type="text" class="form-control" id="placa" placeholder="ABC-1234">
+      </div>
+      <div class="form-group">
+          <label for="modelo">Modelo do Carro:</label>
+          <input type="text" class="form-control" id="modelo" placeholder="Sedan">
+      </div>
+      <div class="form-group">
+          <label for="cor">Cor do Carro:</label>
+          <input type="text" class="form-control" id="cor" placeholder="Prata">
+      </div>
+      <button class="btn btn-primary" id="entradaBtn">Registrar Entrada</button>
+  </form>
+</div>
+
+    <!-- Página de Saída de Carro -->
+    <div class="container mt-5">
+      <h2>Saída de Carro</h2>
+      <div class="form-group">
+          <label for="placaBusca">Buscar por Placa:</label>
+          <input type="text" class="form-control" id="placaBusca" placeholder="Digite a placa">
+      </div>
+      <table class="table table-striped">
+          <thead>
+              <tr>
+                  <th>Placa</th>
+                  <th>Modelo</th>
+                  <th>Cor</th>
+                  <th>Ação</th>
+              </tr>
+          </thead>
+          <tbody>
+              <!-- Dados dos carros estacionados aqui -->
+          </tbody>
+      </table>
+  </div>
